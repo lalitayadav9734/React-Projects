@@ -9,7 +9,7 @@ export default function Search({ search, setSearch, handleSearch }) {
           onChange={(event) => setSearch(event.target.value)}
         />
         <button onClick={handleSearch}>
-          Search
+          Search Here
         </button>
       </div>
     );
